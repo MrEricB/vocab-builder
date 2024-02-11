@@ -48,6 +48,7 @@ class DefinitionWord(Resource):
 api.add_resource(Anagrams, '/getanagram/<string:myword>')
 api.add_resource(WordToDefinition,'/randomword')
 api.add_resource(WordDefintion, '/define/<string:word>')
+api.add_resource(DefinitionToWord, '/whatis')
 
 
 if __name__ == '__main__':
